@@ -15,7 +15,7 @@ export default{
         clickTest(){
             this.count++;
             console.log(this.count);
-            if(this.count === 5){
+            if(this.count === 3){
                 this.$router.push('/first-compontent');
             }
         }
